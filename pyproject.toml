@@ -15,7 +15,7 @@ wordcloud = "^1.8.2"
 [tool.poetry.dev-dependencies]
 black = "^23.1.0"
 ipython = "^8.11.0"
-zoonyper = {path = "./zoonyper", develop = true}
+zoonyper = { git = "https://github.com/kingsdigitallab/zoonyper.git", branch = "v0.1.0" }
 jupyterlab-code-formatter = "^1.5.3"
 isort = "^5.12.0"
 
