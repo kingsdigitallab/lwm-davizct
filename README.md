@@ -13,11 +13,11 @@ and store it in the `data/0_raw` directory.
 
 Install the dependencies:
 
-  poetry install
+    poetry install
 
 Run the notebooks:
 
-  poetry run jupyter lab
+    poetry run jupyter lab
 
 ## Colab
 
