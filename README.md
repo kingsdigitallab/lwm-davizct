@@ -7,6 +7,10 @@ This repository contains Jupyter notebooks to analyse Zooniverse crowdsourcing d
 To run this project locally clone the repository and
 [install Poetry](https://python-poetry.org/docs/#installation).
 
+Export data from Zooniverse as described in the
+[Zoonyper documentation](https://github.com/kingsdigitallab/zoonyper/blob/v0.1.0/docs/source/getting-started/tutorials/setting-up-your-first-project.rst)
+and store it in the `data/0_raw` directory.
+
 Install the dependencies:
 
   poetry install
