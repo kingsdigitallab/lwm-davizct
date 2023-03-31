@@ -130,3 +130,8 @@ dmypy.json
 
 # Development copy of Zoonyper
 zoonyper/
+
+!data
+!data/*
+data/*/*
+!data/*/README.md
