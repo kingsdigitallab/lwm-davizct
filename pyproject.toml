@@ -11,6 +11,7 @@ plotly = "^5.13.1"
 jupyterlab = "^3.6.2"
 jupyter-contrib-nbextensions = "^0.7.0"
 wordcloud = "^1.8.2"
+ipylab = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 black = "^23.1.0"

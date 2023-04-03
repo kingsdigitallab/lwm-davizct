@@ -491,6 +491,22 @@ pyside6 = ["pyside6"]
 test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "ipylab"
+version = "0.7.1"
+description = "Control JupyterLab from Python notebooks"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+ipywidgets = ">=7.6.0,<9"
+
+[package.extras]
+dev = ["black", "pre-commit"]
+docs = ["jupyter-sphinx", "nbsphinx (>=0.2.13,<0.4.0)", "nbsphinx-link", "pypandoc", "pytest-check-links", "recommonmark", "sphinx (>=1.5)", "sphinx-rtd-theme"]
+test = ["pytest", "pytest-cov"]
+
+[[package]]
 name = "ipython"
 version = "8.11.0"
 description = "IPython: Productive Interactive Computing"
@@ -537,7 +553,7 @@ python-versions = "*"
 name = "ipywidgets"
 version = "7.7.4"
 description = "IPython HTML widgets for Jupyter"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -941,7 +957,7 @@ test = ["codecov", "hatch", "ipykernel", "jupyterlab-server", "openapi-spec-vali
 name = "jupyterlab-widgets"
 version = "1.1.3"
 description = "A JupyterLab extension."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -2153,7 +2169,7 @@ test = ["websockets"]
 name = "widgetsnbextension"
 version = "3.6.3"
 description = "IPython HTML widgets for Jupyter"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -2239,7 +2255,7 @@ url = "zoonyper"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "89a7295a87b1e63f9bfe599449ca035595d3bd477da9a6d5a812b0182fbe33e4"
+content-hash = "b5341c0d1914aa35add14eace410faf3a3b454dd887f191c0c17d1d95cef9f19"
 
 [metadata.files]
 aiofiles = [
@@ -2702,6 +2718,10 @@ importlib-resources = [
 ipykernel = [
     {file = "ipykernel-6.22.0-py3-none-any.whl", hash = "sha256:1ae6047c1277508933078163721bbb479c3e7292778a04b4bacf0874550977d6"},
     {file = "ipykernel-6.22.0.tar.gz", hash = "sha256:302558b81f1bc22dc259fb2a0c5c7cf2f4c0bdb21b50484348f7bafe7fb71421"},
+]
+ipylab = [
+    {file = "ipylab-0.7.1-py3-none-any.whl", hash = "sha256:2435abcb84c2dd5b1a3e5ef098603ef12200bb65671f1baf2078e83b94da95a8"},
+    {file = "ipylab-0.7.1.tar.gz", hash = "sha256:5d866c7bc0e74be83d8eecd7a42379ea7ac40c72f2cb4252986e5560ee737707"},
 ]
 ipython = [
     {file = "ipython-8.11.0-py3-none-any.whl", hash = "sha256:5b54478e459155a326bf5f42ee4f29df76258c0279c36f21d71ddb560f88b156"},
