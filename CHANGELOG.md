@@ -6,9 +6,8 @@
 - **notebooks**: automatically run cells after choosing workflow
 - **notebooks**: only disambiguate subjects if not in colab
 - **notebooks**: only disambiguate subjects if not in colab
-- add dropdown to choose a workflow
-- initial notebook for data exploration
-- initial data exploration notebook
+- **notebooks**: add dropdown to choose a workflow
+- **notebooks**: initial notebook for data exploration
 
 ### Perf
 
