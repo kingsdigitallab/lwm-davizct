@@ -1,3 +1,15 @@
+## 0.1.0 (2023-04-06)
+
+### Feat
+
+- **notebooks**: add simple instructions and form to set path variables
+- **notebooks**: change subjects alluvial diagram to be more dynamic
+
+### Fix
+
+- **notebooks**: access to columns that might not be available in the data
+- **notebooks**: install missing dependency in colab
+
 ## 0.1.0 (2023-04-03)
 
 ### Feat
