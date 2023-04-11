@@ -1,3 +1,9 @@
+## 0.3.1 (2023-04-11)
+
+### Feat
+
+- **notebooks**: add subjects political distribution
+
 ## 0.3.0 (2023-04-11)
 
 ### Feat
