@@ -1,3 +1,10 @@
+## 0.4.0 (2023-04-28)
+
+### Feat
+
+- **notebooks**: add notebook to export data for frontend visualisations
+- **notebooks**: add workflow prose descriptions
+
 ## 0.3.1 (2023-04-11)
 
 ### Feat

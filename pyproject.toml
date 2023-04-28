@@ -16,14 +16,15 @@ ipylab = "^0.7.1"
 [tool.poetry.dev-dependencies]
 black = "^23.1.0"
 ipython = "^8.11.0"
-zoonyper = { git = "https://github.com/kingsdigitallab/zoonyper.git", branch = "v0.1.0" }
+# zoonyper = { git = "https://github.com/kingsdigitallab/zoonyper.git", branch = "v0.1.0" }
+zoonyper = {path = "./zoonyper", develop = true}
 jupyterlab-code-formatter = "^1.5.3"
 isort = "^5.12.0"
 jupyterlab-git = "^0.41.0"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.3.1"
+version = "0.4.0"
 tag_format = "$major.$minor.$patch"
 
 [build-system]
