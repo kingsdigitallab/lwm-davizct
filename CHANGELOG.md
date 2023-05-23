@@ -1,3 +1,16 @@
+## 0.5.0 (2023-05-23)
+
+### Feat
+
+- **notebooks**: add extra data to the export
+- **notebooks**: export annotations with counts per annotation label
+- **notebooks**: export extra fields for subjects and newspapers
+
+### Fix
+
+- **notebooks**: merge with origin main
+- **notebooks**: prose about the selected workflow
+
 ## 0.4.0 (2023-04-28)
 
 ### Feat

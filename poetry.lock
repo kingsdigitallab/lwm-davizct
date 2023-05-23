@@ -1016,6 +1016,14 @@ openapi = ["openapi-core (>=0.16.1,<0.17.0)", "ruamel-yaml"]
 test = ["hatch", "ipykernel", "jupyterlab-server", "openapi-spec-validator (>=0.5.1,<0.6.0)", "pytest (>=7.0)", "pytest-console-scripts", "pytest-cov", "pytest-jupyter[server] (>=0.6.2)", "pytest-timeout", "requests-mock", "sphinxcontrib-spelling", "strict-rfc3339", "werkzeug"]
 
 [[package]]
+name = "jupyterlab-tabnine"
+version = "0.0.24"
+description = "JupyterLab client for Tabnine"
+category = "dev"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "jupyterlab-widgets"
 version = "1.1.4"
 description = "A JupyterLab extension."
@@ -2353,7 +2361,7 @@ url = "zoonyper"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "b83a6d186d9337e32db2c780a151025de48ab1053dee96f4b17931f9f8e4974c"
+content-hash = "55801f5bf45c8d60337e64c0d7280226699db43c573f5e5c067eb29980bbe083"
 
 [metadata.files]
 aiofiles = [
@@ -2938,6 +2946,10 @@ jupyterlab-pygments = [
 jupyterlab-server = [
     {file = "jupyterlab_server-2.22.1-py3-none-any.whl", hash = "sha256:1c8eb55c7cd70a50a51fef42a7b4e26ef2f7fc48728f0290604bd89b1dd156e6"},
     {file = "jupyterlab_server-2.22.1.tar.gz", hash = "sha256:dfaaf898af84b9d01ae9583b813f378b96ee90c3a66f24c5186ea5d1bbdb2089"},
+]
+jupyterlab-tabnine = [
+    {file = "jupyterlab_tabnine-0.0.24-py3-none-any.whl", hash = "sha256:15c3e6e9bfcd24fb18eee900e67c35322994cce2065a6590cf0e515e12f8bbdf"},
+    {file = "jupyterlab_tabnine-0.0.24.tar.gz", hash = "sha256:6a0fe256a777cc2f08c6b323bc574458a16a0c131a59d3e3a981e86801a8dd69"},
 ]
 jupyterlab-widgets = [
     {file = "jupyterlab_widgets-1.1.4-py3-none-any.whl", hash = "sha256:769eb7bfef7e8ab70a7737104555531b09bcfba982f89465d2ae67b99b3f3e81"},
