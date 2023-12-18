@@ -1,5 +1,7 @@
 # Data analisys and visualisation of Zooniverse crowdsourcing tasks
 
+[![DOI](https://zenodo.org/badge/620843876.svg)](https://zenodo.org/doi/10.5281/zenodo.10401204)
+
 This repository contains Jupyter notebooks to analyse Zooniverse crowdsourcing data.
 
 ## Local set up
