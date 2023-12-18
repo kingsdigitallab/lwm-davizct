@@ -131,6 +131,10 @@ dmypy.json
 # Development copy of Zoonyper
 zoonyper/
 
+# SvelteKit test apps
+frontend/
+pudding/
+
 !data
 !data/*
 data/*/*
