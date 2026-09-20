@@ -1,34 +1,39 @@
-[tool.poetry]
+[project]
 name = "davizct"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [{ name = "Miguel Vieira", email = "jose.m.vieira@kcl.ac.uk" }]
+requires-python = ">=3.9,<3.11"
 license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "plotly>=5.13.1,<6",
+    "jupyterlab>=3.6.2,<4",
+    "jupyter-contrib-nbextensions>=0.7.0,<0.8",
+    "wordcloud>=1.9.2,<2",
+    "ipylab>=0.7.1,<0.8",
+    "pyyaml>=6.0.1,<7",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-plotly = "^5.13.1"
-jupyterlab = "^3.6.2"
-jupyter-contrib-nbextensions = "^0.7.0"
-wordcloud = "^1.9.2"
-ipylab = "^0.7.1"
-pyyaml = "^6.0.1"
+[dependency-groups]
+dev = [
+    "black>=23.1.0,<24",
+    "ipython>=8.11.0,<9",
+    "zoonyper",
+    "jupyterlab-code-formatter>=1.5.3,<2",
+    "isort>=5.12.0,<6",
+    "jupyterlab-git>=0.41.0,<0.42",
+    "jupyterlab-tabnine>=0.0.24,<0.0.25",
+]
 
-[tool.poetry.dev-dependencies]
-black = "^23.1.0"
-ipython = "^8.11.0"
+[tool.uv.sources]
 zoonyper = { git = "https://github.com/kingsdigitallab/zoonyper.git", branch = "v0.1.0" }
-# zoonyper = {path = "./zoonyper", develop = true}
-jupyterlab-code-formatter = "^1.5.3"
-isort = "^5.12.0"
-jupyterlab-git = "^0.41.0"
-jupyterlab-tabnine = "^0.0.24"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.5.0"
+version = "0.6.0"
 tag_format = "$major.$minor.$patch"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
